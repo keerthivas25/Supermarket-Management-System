@@ -1,35 +1,66 @@
-# Supermarket-Management-System
-A Streamlit-MySQL based app to manage supermarket operations including inventory, suppliers, purchases, and finance. Features low-stock alerts, expiry tracking, and profit analysis with real-time updates and dashboards.
-Overview
-This is a database-driven web application for managing operations in a supermarket. Built using Streamlit for frontend and MySQL for backend, the system allows for smooth handling of products, customers, suppliers, transactions, and financial summaries. It was developed as part of a DBMS academic project.
+# Supermarket Management System
 
-Key Features
-Add, update, and manage supplier, customer, and warehouse data
+A Streamlit-MySQL based application designed to manage supermarket operations, including inventory, suppliers, purchases, and finance. The system features low-stock alerts, expiry tracking, profit analysis, real-time updates, and interactive dashboards.
 
-Purchase and transaction tracking with real-time stock updates
+---
 
-Low-stock alerts and expiry-based filtering
+## Overview
 
-Net profit analysis within a date range using transaction logs
+This is a database-driven web application for managing operations in a supermarket. Built using **Streamlit** for the frontend and **MySQL** for the backend, the system enables seamless handling of products, customers, suppliers, transactions, and financial summaries. It was developed as part of a DBMS academic project.
 
-Dynamic search and filters on all tables
+---
 
-Visual dashboards for key metrics using Streamlit
+## Key Features
 
-Tech Stack
-Python
+### Core Functionalities
+- **Supplier, Customer, and Warehouse Management**
+  - Add, update, and manage supplier data.
+  - Maintain customer records.
+  - Manage warehouse inventory efficiently.
 
-Streamlit (Frontend)
+- **Purchase and Transaction Tracking**
+  - Real-time stock updates during purchases.
+  - Track all transactions with detailed logs.
 
-MySQL (Backend)
+- **Inventory Alerts**
+  - Low-stock alerts to prevent shortages.
+  - Expiry-based filtering for perishable goods.
 
-Pandas
+- **Profit Analysis**
+  - Analyze net profit within a specified date range using transaction logs.
 
-Future Scope
-Add authentication and role-based access (admin, manager)
+### Advanced Features
+- **Dynamic Search and Filters**
+  - Apply filters and search across all tables for quick access to data.
 
-Support for sales analytics and monthly reports
+- **Visual Dashboards**
+  - Interactive dashboards using Streamlit to display key metrics such as sales trends, inventory status, and financial summaries.
 
-Cloud deployment with persistent databases
+---
 
-Email/SMS alerts for expiry and stock shortages
+## Tech Stack
+
+- **Python**: Core programming language.
+- **Streamlit**: Frontend framework for building interactive web applications.
+- **MySQL**: Backend database for storing and managing data.
+- **Pandas**: Data manipulation and analysis library.
+
+---
+
+## Future Scope
+
+The project has significant potential for expansion. Some ideas for future enhancements include:
+
+- **Authentication and Role-Based Access**
+  - Implement user roles such as admin, manager, and staff with restricted access to features.
+
+- **Sales Analytics and Reporting**
+  - Generate monthly reports and perform advanced sales analytics.
+
+- **Cloud Deployment**
+  - Deploy the application on cloud platforms with persistent databases for scalability.
+
+- **Automated Alerts**
+  - Integrate email/SMS notifications for expiry alerts and stock shortages.
+
+---
